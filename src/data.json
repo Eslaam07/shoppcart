@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": "product1",
+      "image": "./images/product1.jpg",
+      "title": "Nike'77 Vintage trainers",
+      "availableSizes": [
+        "S",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "price": 30
+    },
+    {
+      "id": "product2",
+      "image": "./images/product2.jpg",
+      "title": "Nike tapered fit joggers",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "price": 20
+    },
+    {
+      "id": "product3",
+      "image": "./images/product3.jpg",
+      "title": "Nike heavy weight oversized",
+      "availableSizes": [
+        "XS",
+        "M",
+        "L"
+      ],
+      "price": 15
+    },
+    {
+      "id": "product4",
+      "image": "./images/product4.jpg",
+      "title": "New Balance core backpack",
+      "availableSizes": [
+        "XL",
+        "S"
+      ],
+      "price": 25
+    },
+    {
+      "id": "product5",
+      "image": "./images/product5.jpg",
+      "title": "New Balance crew socks",
+      "availableSizes": [
+        "XS",
+        "L",
+        "XL"
+      ],
+      "price": 10
+    },
+    {
+      "id": "product6",
+      "image": "./images/product6.jpg",
+      "title": "adidas sport backpack",
+      "availableSizes": [
+        "XL",
+        "XXL"
+      ],
+      "price": 26
+    },
+    {
+      "id": "product7",
+      "image": "./images/product7.jpg",
+      "title": "Reebok knitted gloves",
+      "availableSizes": [
+        "L",
+        "S"
+      ],
+      "price": 13
+    },
+    {
+      "id": "product8",
+      "image": "./images/product8.jpg",
+      "title": "Reebok Classics t-shirt",
+      "availableSizes": [
+        "XL",
+        "L",
+        "S"
+      ],
+      "price": 17
+    },
+    {
+      "id": "product9",
+      "image": "./images/product9.jpg",
+      "title": "Puma Downtown block hoodie ",
+      "availableSizes": [
+        "XXL",
+        "M"
+      ],
+      "price": 30
+    },
+    {
+      "id": "product10",
+      "image": "./images/product10.jpg",
+      "title": "Dr Denim Clark slim jeans",
+      "availableSizes": [
+        "XL",
+        "XXL",
+        "L"
+      ],
+      "price": 45
+    },
+    {
+      "id": "product11",
+      "image": "./images/product11.jpg",
+      "title": "ASOS shacket in back",
+      "availableSizes": [
+        "L",
+        "S",
+        "M"
+      ],
+      "price": 37
+    },
+    {
+      "id": "product12",
+      "image": "./images/product12.jpg",
+      "title": "Reebok beanie in black",
+      "availableSizes": [
+        "XL",
+        "S",
+        "XS"
+      ],
+      "price": 12
+    }
+  ]
+}

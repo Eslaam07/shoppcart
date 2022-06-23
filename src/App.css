@@ -1,0 +1,33 @@
+.container {
+  /* width: calc(100vw - 2.275vw ); */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--main-padding);
+  padding-right: var(--main-padding);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* Mobile */
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+}
+/* Small Screens */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large Screens */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

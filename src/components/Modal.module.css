@@ -1,0 +1,10 @@
+.modal{
+  height: 100vh;
+  position: fixed;
+  background-color: rgb(30 28 28 / 60%);
+  width: 100vw;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  height: -webkit-fill-available;
+  }

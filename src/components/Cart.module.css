@@ -1,0 +1,152 @@
+.cart {
+  position: fixed;
+  width: 65vw;
+  height: 65vh;
+  background-color: bisque;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  column-gap: 7px;
+  row-gap: 7px;
+  overflow: auto;
+  z-index: 3;
+  padding-bottom: 66px;
+}
+.buttons {
+  display: flex;
+  margin: 10px 5px;
+  gap: 10px;
+}
+.item{
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 55px;
+}
+.item img {
+  width: 85px;
+}
+.info{
+  text-align: center;
+  font-size: 14px;
+}
+
+.lower {
+  position: fixed;
+  display: flex;
+  width: 60vw;
+  top: 77.5vh;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  background-color: #673ab6;
+  border-radius: 10px;
+  padding: 0 10px;
+  justify-content: space-between;
+  z-index: 3;
+}
+.total{
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.info button{
+  line-height: 5px;
+  width: 30px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+@media (max-width:499px) {
+  .cart {
+    width: 90vw;
+    top: 55%;
+    left: 50%;
+    gap: 0;
+    height: 70vh;
+  }
+  .info{
+    width: 110px;
+  }
+  .info>p:first-of-type{
+    display: none;
+  }
+  .item img {
+    width: 70px;
+  }
+
+  .lower{
+    width: 80vw;
+    top: 79.5vh;
+    left: 48%;
+    }
+
+  .total{
+    font-size: 14px;
+    width: 110px;
+  }
+}
+
+@media (min-width:500px) and (max-width:767px) {
+  .cart {
+    width: 90vw;
+    height: 70vh;
+    top: 50%;
+    left: 50%;
+    gap: 0;
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+  }
+  .info{
+    width: 110px;
+  }
+  .info>p:first-of-type{
+    display: none;
+  }
+  .item img {
+    width: 70px;
+  }
+
+  .lower{
+    width: 83vw;
+    top: 79.5vh;
+    left: 49.5%;
+    }
+  .total{
+    font-size: 14px;
+    position: static;
+    width: 110px;
+  }
+
+}
+
+.proceed{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #2ea241;
+  color: white;
+  border-radius: 20px;
+  width: 85vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+.proceed button{
+  position: fixed;
+  bottom: 5px;
+  background-color: #adb0fc;
+  border: 1px solid #c5c2c2;
+}
+.proceed button:hover{
+  background-color: #673ab6;
+}
