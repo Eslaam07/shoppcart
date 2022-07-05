@@ -3,9 +3,10 @@ import "./Header.module.css";
 import CartIcon from "./CartIcon";
 
 const Header = (props) => {
+  const href = "#";
   return (
     <header>
-      <a href="/">Shopping Cart</a>
+      <a href={href}>Shopping Cart</a>
       <nav>
         <CartIcon
           onClick={props.onClick}
