@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": "product1",
+      "id": "1",
       "image": "./images/product1.jpg",
       "title": "Nike'77 Vintage trainers",
       "availableSizes": [
@@ -13,7 +13,7 @@
       "price": 30
     },
     {
-      "id": "product2",
+      "id": "2",
       "image": "./images/product2.jpg",
       "title": "Nike tapered fit joggers",
       "availableSizes": [
@@ -24,7 +24,7 @@
       "price": 20
     },
     {
-      "id": "product3",
+      "id": "3",
       "image": "./images/product3.jpg",
       "title": "Nike heavy weight oversized",
       "availableSizes": [
@@ -35,7 +35,7 @@
       "price": 15
     },
     {
-      "id": "product4",
+      "id": "4",
       "image": "./images/product4.jpg",
       "title": "New Balance core backpack",
       "availableSizes": [
@@ -45,7 +45,7 @@
       "price": 25
     },
     {
-      "id": "product5",
+      "id": "5",
       "image": "./images/product5.jpg",
       "title": "New Balance crew socks",
       "availableSizes": [
@@ -56,7 +56,7 @@
       "price": 10
     },
     {
-      "id": "product6",
+      "id": "6",
       "image": "./images/product6.jpg",
       "title": "adidas sport backpack",
       "availableSizes": [
@@ -66,7 +66,7 @@
       "price": 26
     },
     {
-      "id": "product7",
+      "id": "7",
       "image": "./images/product7.jpg",
       "title": "Reebok knitted gloves",
       "availableSizes": [
@@ -76,7 +76,7 @@
       "price": 13
     },
     {
-      "id": "product8",
+      "id": "8",
       "image": "./images/product8.jpg",
       "title": "Reebok Classics t-shirt",
       "availableSizes": [
@@ -87,7 +87,7 @@
       "price": 17
     },
     {
-      "id": "product9",
+      "id": "9",
       "image": "./images/product9.jpg",
       "title": "Puma Downtown block hoodie ",
       "availableSizes": [
@@ -97,7 +97,7 @@
       "price": 30
     },
     {
-      "id": "product10",
+      "id": "10",
       "image": "./images/product10.jpg",
       "title": "Dr Denim Clark slim jeans",
       "availableSizes": [
@@ -108,7 +108,7 @@
       "price": 45
     },
     {
-      "id": "product11",
+      "id": "11",
       "image": "./images/product11.jpg",
       "title": "ASOS shacket in back",
       "availableSizes": [
@@ -119,7 +119,7 @@
       "price": 37
     },
     {
-      "id": "product12",
+      "id": "12",
       "image": "./images/product12.jpg",
       "title": "Reebok beanie in black",
       "availableSizes": [

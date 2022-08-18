@@ -82,12 +82,7 @@ function App() {
     // Sort section
 
     if (receivedFilter === "latest") {
-      setFilteredData([
-        ...filteredData.sort(
-          (a, b) =>
-            a.id.charCodeAt(a.id.length - 1) - b.id.charCodeAt(b.id.length - 1)
-        ),
-      ]);
+      setFilteredData([...filteredData.sort((a, b) => +a.id - +b.id)]);
     }
     if (receivedFilter === "lowest") {
       setFilteredData([...filteredData.sort((a, b) => a.price - b.price)]);
